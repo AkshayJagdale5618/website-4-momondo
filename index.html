@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momondo</title>
+
+    <!-- link taken form fontawesome.com/icon/free-icon ,  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!-- Header Section Start -->
+    <header>
+        <ul>
+            <li class="logo"><a href="index.html">
+                    <img src="./assets/img/logo.png" alt="logo-image">
+                </a></li>
+            <li><a href="javascript:void()" class="active1">Flights </a></li>
+            <li><a href="javascript:void()">Hotels </a></li>
+            <li><a href="javascript:void()">Cire Hire </a></li>
+            <li><a href="javascript:void()">Trip Finder </a></li>
+        </ul>
+        <ul>
+            <li><a href="javascipt:void()">
+                    <img src="./assets/img/2.png" alt="flag" width="23px" height="25px" style="padding-top: 8px;">
+                    English
+                </a></li>
+            <li><a href="javascipt:void()" class="active2">Log In</a></li>
+        </ul>
+    </header>
+    <!-- /Header Section End -->
+
+    <!-- Banner Section Start -->
+    <section class="banner">
+        <h1>"The best place to find <br> the cheapest airfares"</h1>
+        <h2> - every single time. </h2>
+
+        <form action="">
+            <div>
+                <div class="switchButton">
+                    <button type="button" class=" active ">
+                        <i class="fa-solid fa-plane-departure"></i> Flights
+                    </button>
+                    <button type="button">
+                        <i class="fa-solid fa-shop"></i> Hotels
+                    </button>
+                    <button type="button">
+                        <i class="fa-solid fa-car"></i> Cars
+                    </button>
+                </div>
+                <div class="searchForm">
+                    <label for="origin-city">Origin-City</label>
+                    <input type="text" name="origin-city" id="origin-city" placeholder="Enter Origin City">
+                    <span>
+                        <i class="fa-solid fa-arrow-right-arrow-left" style="color: aqua; margin-right: 3px;"></i>
+                    </span>
+
+                    <label for="destination-city">Destination City</label>
+                    <input type="text" name="destination-city" id="destination-city"
+                        placeholder="Enter Destination City">
+
+                    <label for="trave-start-date"> Start Date </label>
+                    <input type="date" name="trave-start-date" id="trave-start-date" placeholder="Start Date">
+
+                    <label for="trave-end-date"> End Date </label>
+                    <input type="date" name="trave-end-date" id="trave-endt-date" placeholder="End Date">
+
+                    <label for="select-passenger"> Select Passenger </label>
+                    <select name="select-passenger" id="select-passenger">
+                        <option selected> Select Passenger</option>
+                        <option value="1 pass">1 Passenger</option>
+                        <option value="2 pass">2 Passenger</option>
+                        <option value="3 pass">3 Passenger</option>
+                        <option value="4 pass">4 Passenger</option>
+                        <option value="5 pass">5 Passenger</option>
+                    </select>
+
+                </div>
+            </div>
+            <div>
+                <button type="submit" class="smt"> Search </button>
+            </div>
+        </form>
+
+    </section>
+    <!-- /Banner Section End -->
+
+    <!-- Fun Section Start -->
+    <section class="fun">
+        <h2> SOME FUN WE COVER</h2>
+        <ul>
+            <li>
+                <i class="fa-solid fa-person-biking" style="font-size: 40px; padding-bottom: 10px;"></i>
+                <h5> 5670 M</h5>
+                <h6> CYCLING TRACK</h6>
+            </li>
+            <li>
+                <i class="fa-solid fa-map-location-dot" style="font-size: 40px; padding-bottom: 10px;"></i>
+                <h5> 480 M</h5>
+                <h6> DISTANCE COVERD</h6>
+            </li>
+            <li>
+                <i class="fa-solid fa-person-hiking" style="font-size: 40px; padding-bottom: 10px;"></i>
+                <h5> 5670 M</h5>
+                <h6> ALTITUDE HIKED</h6>
+            </li>
+            <li>
+                <i class="fa-solid fa-sailboat" style="font-size: 40px; padding-bottom: 10px;"></i>
+                <h5> 180 KM</h5>
+                <h6> SAIKING DISTANCE</h6>
+            </li>
+            <li>
+                <i class="fa-solid fa-mountain-sun" style="font-size: 40px; padding-bottom: 10px;"></i>
+                <h5> 570 DAYS</h5>
+                <h6> SPENT ADVENTURE</h6>
+            </li>
+            <li>
+                <i class="fa-solid fa-paw" style="font-size: 40px; padding-bottom: 10px;"></i>
+                <h5> 567 M</h5>
+                <h6> JUGLE DISTANCE</h6>
+            </li>
+        </ul>
+    </section>
+    <!-- /Fun Section End -->
+
+    <!-- Newletter Section Start -->
+    <section class="subscirbe">
+        <h2>SUBSCIBE FOR OUR TRAVEL NEWLWTTERS</h2>
+        <p id="p1">Join our community of 300,000 global readers who receive emails filled with news</p>
+        <p id="p2">promotions, and other good stuff from G Advantages . </p>
+        <form action="">
+            <label for="newletter"></label>
+            <input type="email" name="newsemail" id="newsemail" placeholder="Enter your email address.....">
+            <input type="submit" name="submit" id="newsubmit" value="Submit">
+        </form>
+
+    </section>
+    <!-- /Newletter Section End -->
+
+    <!-- Destination Section Start -->
+    <section class="destination">
+        <h2>POPULAR DESTINATION</h2>
+        <ul>
+            <!-- Destination-1 -->
+            <li>
+                <div>
+                    <img src="./assets/img/dest1.jpg" alt="romeimage">
+                </div>
+                <div class="content">
+                    <p id="p1">
+                        <span>$999 </span>Rome,Florence & Venice
+                    </p>
+                    <p id="p2"> 9.Night Vancation w/Air</p><br>
+                    <p id="p3"> This is the lowest price we've seen </p>
+                    <p id="p4"> in four years for a nine-night </p>
+                </div>
+            </li>
+
+            <!-- Destination-2 -->
+            <li>
+                <div>
+                    <img src="./assets/img/dest2.jpg" alt="romeimage">
+                </div>
+                <div class="content">
+                    <p id="p1">
+                        <span>$1699 </span>Australia: Sydney & Fiji
+                    </p>
+                    <p id="p2"> Vacation w/Air,Save <span> $550</span></p><br>
+                    <p id="p3"> This is the lowest price we've seen </p>
+                    <p id="p4"> in four years for a nine-night </p>
+                </div>
+            </li>
+
+            <!-- Destination-3 -->
+            <li>
+                <div>
+                    <img src="./assets/img/dest3.jpg" alt="romeimage">
+                </div>
+                <div class="content">
+                    <p id="p1">
+                        <span>$1699 </span>Greek Islands 8-Night
+                    </p>
+                    <p id="p2"> Vacation w/Air, <span>Save $550</span></p><br>
+                    <p id="p3"> This is the lowest price we've seen </p>
+                    <p id="p4"> in four years for a nine-night </p>
+                </div>
+            </li>
+
+            <!-- Destination-4 -->
+            <li>
+                <div>
+                    <img src="./assets/img/dest4.jpg" alt="romeimage">
+                </div>
+                <div class="content">
+                    <p id="p1">
+                        <span>$899 </span>Ireland & Germany 6-Night
+                    </p>
+                    <p id="p2"> Adventure w/Air</p><br>
+                    <p id="p3"> This is the lowest price we've seen </p>
+                    <p id="p4"> in four years for a nine-night </p>
+                </div>
+            </li>
+
+            <!-- Destination-5 -->
+            <li>
+                <div>
+                    <img src="./assets/img/dest5.jpg" alt="romeimage">
+                </div>
+                <div class="content">
+                    <p id="p1">
+                        <span>1299 </span>Morocco 4-Star Escorted
+                    </p>
+                    <p id="p2"> Vancation w/Air, <span>Save $1600</span></p><br>
+                    <p id="p3"> This is the lowest price we've seen </p>
+                    <p id="p4"> in four years for a nine-night </p>
+                </div>
+            </li>
+
+            <!-- Destination-6 -->
+            <li>
+                <div>
+                    <img src="./assets/img/dest6.jpg" alt="romeimage">
+                </div>
+                <div class="content">
+                    <p id="p1">
+                        <span>$639 </span>Cabo All-Inclusive Beach
+                    </p>
+                    <p id="p2"> Getaway w/Air, <span>Save $250</span></p><br>
+                    <p id="p3"> This is the lowest price we've seen </p>
+                    <p id="p4"> in four years for a nine-night </p>
+                </div>
+            </li>
+
+            <!-- Destination-7 -->
+            <li>
+                <div>
+                    <img src="./assets/img/dest7.jpg" alt="romeimage">
+                </div>
+                <div class="content">
+                    <p id="p1">
+                        <span>$2999 </span>New Zealand: Multi-City
+                    </p>
+                    <p id="p2">Trip w/Tours & Car Rental</p><br>
+                    <p id="p3"> This is the lowest price we've seen </p>
+                    <p id="p4"> in four years for a nine-night </p>
+                </div>
+            </li>
+            <!-- Destination-8 -->
+            <li>
+                <div>
+                    <img src="./assets/img/dest8.jpg" alt="romeimage">
+                </div>
+                <div class="content">
+                    <p id="p1">
+                        <span>$1942 </span>& Up Turkey 8-Nt. Trip w/Air,
+                    </p>
+                    <p id="p2"> Guided Tours & Hotels </p><br>
+                    <p id="p3"> This is the lowest price we've seen </p>
+                    <p id="p4"> in four years for a nine-night </p>
+                </div>
+            </li>
+
+        </ul>
+    </section>
+    <!-- /Destination Section End -->
+
+    <!-- Estimate Section Start -->
+    <section class="estimate">
+        <h2>GET A QUICK ESTIMATE</h2>
+        <h3>GET A PROFFESIONAL HELP</h3>
+        <hr size="1px" color="#fff" width="60">
+
+        <form>
+            <label for="purpose">Purpose</label>
+            <select name="purpose" id="purpose">
+                <option value="travel">Travel</option>
+                <option value="business">Business</option>
+                <option value="medical">Medical</option>
+                <option value="sports">Sports</option>
+            </select>
+            <label for="tdate">Travel Date </label>
+            <input type="date" name="" id="date">
+
+            <label for="people">People</label>
+            <select name="people" id="people">
+                <option value="npeople">Number of People</option>
+                <option value="onepeople">One People</option>
+                <option value="twopeople">Two People</option>
+                <option value="threepeople">Three People</option>
+            </select>
+
+            <label for="email"> Your Email </label>
+            <input type="email" name="email" id="email" placeholder="Your Email...">
+
+            <label for="calculate">Calculate now</label>
+            <input type="submit" value="CALCULATE NOW" id="submit">
+        </form>
+        <img src="./assets/img/romeimaage1.png" alt="rome1">
+    </section>
+    <!-- /Estimate Section End -->
+
+    <!-- Blog Section Start -->
+    <section class="blog">
+        <h2>LATEST BLOG</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita aperiam soluta, dolores ad assumenda
+            minima veritatis dignissimos deleniti alias doloremque iste nostrum ipsa officia. Assumenda qui
+            reprehenderit animi sunt sit?
+        </p>
+        <div class="blog-content">
+            <div>
+                <img src="./assets/img/blogs-1.jpg" alt="blogs-1">
+
+                <div>
+                    <p>Dec 01, 2023</p>
+                    <h3>10, THINGS TODO BEFORE TRAVEL </h3>
+                    <hr size="4px" color="#000" width="70">
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, est. Nostrum vitae repellat
+                        officiis
+                        molestiae alias, asperiores soluta natus quidem rem eligendi totam, mollitia quas ut quis
+                        repellendus consequuntur cum!
+                    </p>
+                </div>
+            </div>
+            <div>
+                <img src="./assets/img/blogs-2.jpg" alt="blogs-1">
+
+                <div>
+                    <p>Dec 01, 2023</p>
+                    <h3>10, THINGS TODO BEFORE TRAVEL </h3>
+                    <hr size="4px" color="#000" width="70">
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, est. Nostrum vitae repellat
+                        officiis
+                        molestiae alias, asperiores soluta natus quidem rem eligendi totam, mollitia quas ut quis
+                        repellendus consequuntur cum!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- /Blog Section End -->
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
