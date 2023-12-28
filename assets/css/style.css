@@ -65,7 +65,7 @@ header ul li a.active2 {
 .banner form {
     width: 78%;
     bottom: 50px;    
-    height: 100px;
+    height: auto;
     display: flex;
     padding: 2px 8px;
     position: absolute;
@@ -86,9 +86,7 @@ header ul li a.active2 {
 .banner form label{
     display: none;
 }
-.banner form .searchForm {
-    margin-top: 6px;
-}
+
 .banner form .searchForm input ,
 .banner form .searchForm select { 
     width: 130PX;
@@ -361,3 +359,14 @@ footer .copyright{
 }
 /* /Footer Section End */
 
+/* Media Query Section Start */
+@media screen and (max-width:1199px) {
+    header,.banner,
+    .fun,.subscirbe
+    .destination,.estimate
+    .blog,footer{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+/* Media Query Section End  */
